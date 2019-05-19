@@ -16,7 +16,10 @@ class CreateAccountViewController: UIViewController,Storyboarded {
 
         // Do any additional setup after loading the view.
     }
-    
+    deinit {
+        print("deinitilized")
+    }
+
 
     /*
     // MARK: - Navigation
